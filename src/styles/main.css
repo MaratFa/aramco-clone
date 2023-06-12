@@ -6345,7 +6345,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'sa-icons';
-    src: url("../components/fonts/sa-icons-webfont.eot?#iefix") format("embedded-opentype"), url("../components/fonts/sa-icons-webfont.woff?e0a6e0ecbca356e177e9069da5d3141e") format("woff"), url("../components/fonts/sa-icons-webfont.ttf?e0a6e0ecbca356e177e9069da5d3141e") format("truetype"), url("../components/fonts/sa-icons-webfont.svg?e0a6e0ecbca356e177e9069da5d3141e#sa-webfont") format("svg");
+    src: url("../fonts/sa-icons-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sa-icons-webfont.woff?e0a6e0ecbca356e177e9069da5d3141e") format("woff"), url("../fonts/sa-icons-webfont.ttf?e0a6e0ecbca356e177e9069da5d3141e") format("truetype"), url("../fonts/sa-icons-webfont.svg?e0a6e0ecbca356e177e9069da5d3141e#sa-webfont") format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6910,7 +6910,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Ghawar-Bold';
-    src: url("../components/fonts/ghawar-bold.woff2") format("woff2"), url("../components/fonts/ghawar-bold.woff") format("woff");
+    src: url("../fonts/ghawar-bold.woff2") format("woff2"), url("../fonts/ghawar-bold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6918,7 +6918,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Ghawar-BoldItalic';
-    src: url("../components/fonts/ghawar-bolditalic.woff2") format("woff2"), url("../components/fonts/ghawar-bolditalic.woff") format("woff");
+    src: url("../fonts/ghawar-bolditalic.woff2") format("woff2"), url("../fonts/ghawar-bolditalic.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6926,7 +6926,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Ghawar-Light';
-    src: url("../components/fonts/ghawar-light.woff2") format("woff2"), url("../components/fonts/ghawar-light.woff") format("woff");
+    src: url("../fonts/ghawar-light.woff2") format("woff2"), url("../fonts/ghawar-light.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6934,7 +6934,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Ghawar-LightItalic';
-    src: url("../components/fonts/ghawar-lightitalic.woff2") format("woff2"), url("../components/fonts/ghawar-lightitalic.woff") format("woff");
+    src: url("../fonts/ghawar-lightitalic.woff2") format("woff2"), url("../fonts/ghawar-lightitalic.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6942,7 +6942,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Ghawar-Regular';
-    src: url("../components/fonts/ghawar-regular.woff2") format("woff2"), url("../components/fonts/ghawar-regular.woff") format("woff");
+    src: url("../fonts/ghawar-regular.woff2") format("woff2"), url("../fonts/ghawar-regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6950,7 +6950,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Ghawar-SmeiBold';
-    src: url("../components/fonts/ghawar-semibold.woff2") format("woff2"), url("../components/fonts/ghawar-semibold.woff") format("woff");
+    src: url("../fonts/ghawar-semibold.woff2") format("woff2"), url("../fonts/ghawar-semibold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6958,7 +6958,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Haradh-Bold';
-    src: url("../components/fonts/haradh-bold..woff2") format("woff2"), url("../components/fonts/haradh-bold..woff") format("woff");
+    src: url("../fonts/haradh-bold..woff2") format("woff2"), url("../fonts/haradh-bold..woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6966,7 +6966,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Haradh-Regular';
-    src: url("../components/fonts/haradh-regular.woff2") format("woff2"), url("../components/fonts/haradh-regular.woff") format("woff");
+    src: url("../fonts/haradh-regular.woff2") format("woff2"), url("../fonts/haradh-regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6974,7 +6974,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'Haradh-SemiBold';
-    src: url("../components/fonts/haradh-semibold.woff2") format("woff2"), url("../components/fonts/haradh-semibold.woff") format("woff");
+    src: url("../fonts/haradh-semibold.woff2") format("woff2"), url("../fonts/haradh-semibold.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6982,7 +6982,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'ManifaPro2-Bold';
-    src: url("../components/fonts/ManifaPro2_453-Bold.woff2") format("woff2");
+    src: url("../fonts/ManifaPro2_453-Bold.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6991,7 +6991,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'ManifaPro2-Light';
-    src: url("../components/fonts/ManifaPro2_453-Light.woff2") format("woff2");
+    src: url("../fonts/ManifaPro2_453-Light.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -6999,7 +6999,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'ManifaPro2-LightItalic';
-    src: url("../components/fonts/ManifaPro2_453-LightItalic.woff2") format("woff2");
+    src: url("../fonts/ManifaPro2_453-LightItalic.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -7007,7 +7007,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'ManifaPro2-Regular';
-    src: url("../components/fonts/ManifaPro2_453-Regular.woff2") format("woff2");
+    src: url("../fonts/ManifaPro2_453-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -7015,7 +7015,7 @@ a.text-dark:hover {
 
 @font-face {
     font-family: 'ManifaPro2-SemiBold';
-    src: url("../components/fonts/ManifaPro2_453-SemiBold.woff2") format("woff2");
+    src: url("../fonts/ManifaPro2_453-SemiBold.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
