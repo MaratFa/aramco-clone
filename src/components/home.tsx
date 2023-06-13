@@ -1916,9 +1916,449 @@ export const Home = () => {
         {/*<!--start global directory overlay */}
         <div id="myNav" className="overlay">
           <a href="javascript:void(0)" className="closebtn"></a>
+          <div className="overlay-sections">
+            <div className="nav-tab-block">
+              <ul className="nav nav-tabs left-tab-overlay">
+                <h4>Global directory</h4>
+                <li role="button" data-id="1" className="main-nav-tab">
+                  <a data-toggle="tab">Global offices</a>
+                </li>
+                <li role="button" data-id="2" className="main-nav-tab">
+                  <a data-toggle="tab">Our businesses</a>
+                </li>
+                <li role="button" data-id="3" className="main-nav-tab">
+                  <a data-toggle="tab">Production &amp;refineries</a>
+                </li>
+                <li role="button" data-id="4" className="main-nav-tab">
+                  <a data-toggle="tab">Joint ventures</a>
+                </li>
+                <li role="button" data-id="5" className="main-nav-tab">
+                  <a data-toggle="tab">Research centers</a>
+                </li>
+              </ul>
+            </div>
+            <div className="tab-content overlay-spacing">
+              <div className="fixed-globol-sm-header">
+                <h3 className="fixed-header-mobile">Global directory</h3>
+              </div>
+              <div className="tab-pane">
+                <div className="panel panel-default">
+                  <div className="panel-heading" data-id="1">
+                    <h4 className="panel-title">
+                      <a data-toggle="collapse" data-parent=".tab-pane" href="#collapseOne">Global offices
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="1" className="panel-collapse collapse">
+                    <div className="panel-body">
+                      <div className="country-block">
+                        <h3>Headquarters</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="https://www.aramco.com/en">
+                                  <h4>Global - Saudi Arabia </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://www.aramco.com/ar/" target="_blank">العربية</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Saudi Aramco</h4>
+                                <p>
+                                  P.O. Box 5000<br />
+                                  Dhahran 31311<br />Kingdom of Saudi Arabia
+                                </p>
+                                <p>
+                                  <a href="https://www.aramco.com/en/website-information/contactus" className="cta__secondary">CONTACT US</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="https://twitter.com/Aramco" target="_blank" rel="noopener noreferrer" title="twitter" className="footer__link-social footer__link-social--twitter">
+                                      <span>twitter</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.linkedin.com/company/saudi-aramco" target="_blank" rel="noopener noreferrer" title="linkedin" className="footer__link-social footer__link-social--linkedin">
+                                      <span>linkedin</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.youtube.com/user/AramcoVideo" target="_blank" rel="noopener noreferrer" title="youtube" className="footer__link-social footer__link-social--youtube">
+                                      <span>youtube</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.instagram.com/Aramco/" target="_blank" rel="noopener noreferrer" title="instagram" className="footer__link-social footer__link-social--instagram">
+                                      <span>instagram</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.facebook.com/officialsaudiaramco/" target="_blank" rel="noopener noreferrer" title="facebook" className="footer__link-social footer__link-social--facebook">
+                                      <span>facebook</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="country-block">
+                        <h3>Americas</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://americas.aramco.com/" target="_blank">USA</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Location</h4>
+                                <p>
+                                  1200 Smith Street<br />Houston, TX 77002
+                                </p>
+                                <h4>Mailing Address</h4>
+                                <p>
+                                  Aramco Americas<br />
+                                  P.O. Box 4534<br />Houston, TX 77002
+                                </p>
+                                <p>
+                                  <a href="https://americas.aramco.com/en/info/contact-us" className="cta__secondary" target="_blank" rel="noopener noreferrer">CONTACT US</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="https://twitter.com/Aramco_Americas" target="_blank" rel="noopener noreferrer" title="twitter" className="footer__link-social footer__link-social--twitter">
+                                      <span>twitter</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.linkedin.com/company/aramco" target="_blank" rel="noopener noreferrer" title="linkedin" className="footer__link-social footer__link-social--linkedin">
+                                      <span>linkedin</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.facebook.com/Aramco.Americas/" target="_blank" rel="noopener noreferrer" title="facebook" className="footer__link-social footer__link-social--facebook">
+                                      <span>facebook</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="country-block">
+                        <h3>Asia</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="https://china.aramco.com/en">
+                                  <h4>China </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://china.aramco.com/zh-cn" target="_blank">中文</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>BEIJING</h3>
+                                <h4>Aramco Far East (Beijing) Business Services Co., Ltd (ABS)</h4>
+                                <p>
+                                  43/F, 45/F20-26, China World Tower 3, <br />
+                                  No.1 Jianguomenwai Avenue, <br />
+                                  Chaoyang District, <br />Beijing, China 100004
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                                <h3>SHANGHAI</h3>
+                                <h4>Aramco Far East (Beijing) Business Services Co., Ltd. Shanghai Branch</h4>
+                                <p>
+                                  Room 16T60, 16/F &ndash;SWFC, 100 Century Avenue,<br />
+                                  Pudong District, <br />Shanghai 200120, China
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                                <h3>XIAMEN</h3>
+                                <h4>Aramco Far East (Beijing) Business Services Co., Ltd. Xiamen Branch</h4>
+                                <p>
+                                  15F, Paragon Center, No.1 Lianyue Road,<br />
+                                  Siming District,<br />Xiamen 361012, Fujian, China
+                                </p>
+                                <p>
+                                  <a href="https://china.aramco.com/en/info/contact-us" className="cta__secondary" target="_blank" rel="noopener noreferrer">CONTACT US</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="https://weixin.qq.com/cgi-bin/readtemplate?check=false&amp;t=weixin_getdownurl_sms&amp;s=download&amp;from=100&amp;stype=10037102" target="_blank" rel="noopener noreferrer" title="wechat" className="footer__link-social footer__link-social--wechat">
+                                      <span>wechat</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://india.aramco.com/en/" target="_blank">India</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" >
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Aramco Asia India Pvt. Ltd.</h4>
+                                <p>
+                                  2A-0801, 8th Floor, Two Horizon Center, DLF 5,<br />
+                                  Sector 43, Gurugram 122002,<br />Haryana, India
+                                </p>
+                                <a href="https://india.aramco.com/en/info/contact-us" className="cta__secondary" target="_blank" rel="noopener noreferrer">CONTACT US</a>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="https://japan.aramco.com/en">
+                                  <h4>Japan </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://japan.aramco.com/ja-jp" target="_blank">日本語 </a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" >
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Aramco Asia Japan K.K.</h4>
+                                Marunouchi Building 26F<br />
+                                2-4-1 Marunouchi, Chiyoda-ku,<br />
+                                Tokyo 100-6326, Japan<br />
+                                <br />
+                                <a href="https://japan.aramco.com/en/info/contact-us" className="cta__secondary">CONTACT US</a>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div></div></div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="https://korea.aramco.com/en">
+                                  <h4>Korea </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://korea.aramco.com/ko-kr" target="_blank">한국어</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Aramco Asia Korea Limited</h4>
+                                <p>
+                                  45, Three IFC, 10 Gukjegeumyung-ro<br />
+                                  Yeongdeungpo-gu, Seoul, 07326,<br />Korea
+                                </p>
+                                <p>
+                                  <a href="https://korea.aramco.com/en/info/contact-us" className="cta__secondary">CONTACT US</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="http://pf.kakao.com/_zBHwj " target="_blank" rel="noopener" title="kakao" className="footer__link-social footer__link-social--kakao">
+                                      <span>kakao</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://malaysia.aramco.com/en/" target="_blank">Malaysia</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Aramco Overseas Malaysia Sdn Bhd</h4>
+                                <p>
+                                  Level 32, Maxis Tower<br />
+                                  Kuala Lumpur City Center<br />50088 Kuala Lumpur
+                                </p>
+                                <p>
+                                  <a href="https://malaysia.aramco.com/en/info/contact-us" target="_blank" className="cta__secondary" rel="noopener noreferrer">CONTACT US</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://singapore.aramco.com/en/" target="_blank">Singapore</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Aramco Asia Singapore Pte. Ltd.</h4>
+                                <p>
+                                  OUE Bayfront, 50 Collyer Quay #13-01,<br />Singapore 049321
+                                </p>
+                                <p>
+                                  <a href="https://singapore.aramco.com/en/info/contact-us" target="_blank" className="cta__secondary" rel="noopener noreferrer">CONTACT US</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="country-block">
+                        <h3>Europe</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://europe.aramco.com/en/" target="_blank">Italy</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Aramco Overseas Company</h4>
+                                <p>
+                                  Via Tolstoj 86<br />
+                                  Scala F-H, 3rd floor<br />
+                                  20098, San Giuliano Milanese (MI)<br />Italy
+                                </p>
+                                <p>
+                                  <a href="https://europe.aramco.com/en/info/contact-us" target="_blank" className="cta__secondary" rel="noopener noreferrer">CONTACT US</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://europe.aramco.com/en/" target="_blank">The Netherlands</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Aramco Overseas Company</h4>
+                                <p>
+                                  Scheveningseweg 62 - 66<br />
+                                  2517 KX, The Hague<br />The Netherlands &nbsp;&nbsp;
+                                </p>
+                                <p>
+                                  <a href="https://europe.aramco.com/en/info/contact-us" target="_blank" className="cta__secondary" rel="noopener noreferrer">CONTACT US</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://europe.aramco.com/en/" target="_blank">United Kingdom</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h4>Aramco Overseas Company</h4>
+                                <p>
+                                  10 Portman Square<br />
+                                  W1H 6AZ, London<br />United Kingdom
+                                </p>
+                                <p>
+                                  <a href="https://europe.aramco.com/en/info/contact-us" target="_blank" className="cta__secondary" rel="noopener noreferrer">CONTACT US</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div></div></div></div>
 
 
 
+
+
+
+
+
+            </div>
+          </div>
         </div>
       </section>
     </div>
