@@ -2349,7 +2349,691 @@ export const Home = () => {
                         </div>
                       </div>
                     </div></div></div></div>
+              <div className="tab-pane">
+                <div className="panel panel-default">
+                  <div className="panel-heading" data-id="2">
+                    <h4 className="panel-title">
+                      <a data-toggle="collapse" data-parent=".tab-pane" href="#collapseOne">Our businesses
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="2" className="panel-collapse collapse">
+                    <div className="panel-body">
+                      <div className="country-block">
+                        <h3>Global Businesses</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="https://www.waed.net/en">
+                                  <h4>Aramco Entrepreneurship Center (WA &#39;ED) </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://www.waed.net/ar" target="_blank">العربية</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>WA'ED</h3>
+                                <p>
+                                  Eastern Region<br />Dhahran 31311, Saudi Arabia
+                                </p>
+                                <p>
+                                  <a href="https://www.waed.net" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="https://www.linkedin.com/company/saudi-aramco-entrepreneurship-center-wa'ed-/" target="_blank" rel="noopener noreferrer" title="linkedin" className="footer__link-social footer__link-social--linkedin">
+                                      <span>linkedin</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://twitter.com/aramcoec/" target="_blank" rel="noopener noreferrer" title="twitter" className="footer__link-social footer__link-social--twitter">
+                                      <span>twitter</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://www.aramcotrading.com/" target="_blank">Aramco Trading Company</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Aramco Trading Company</h3>
+                                <p>
+                                  Al-Midra Tower Building<br />
+                                  3rd floor, East Wing<br />Dhahran 31311, Saudi Arabia
+                                </p>
+                                <p>
+                                  <a href="https://www.aramcotrading.com/" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="https://twitter.com/aramco_trading" target="_blank" rel="noopener noreferrer" title="twitter" className="footer__link-social footer__link-social--twitter">
+                                      <span>twitter</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.youtube.com/channel/UCjotPgBgn8WUmZyp3taLLSA" target="_blank" rel="noopener noreferrer" title="youtube" className="footer__link-social footer__link-social--youtube">
+                                      <span>youtube</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="http://www.aramcoventures.com/" target="_blank">Aramco Ventures</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Aramco Ventures</h3>
+                                <p>
+                                  Al-Midra Tower Building<br />
+                                  11th floor, West Wing<br />Dhahran 31311, Saudi Arabia
+                                </p>
+                                <p>
+                                  <a href="https://aramcoventures.com/" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="https://twitter.com/aevllc" target="_blank" rel="noopener noreferrer" title="twitter" className="footer__link-social footer__link-social--twitter">
+                                      <span>twitter</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.linkedin.com/company/saev/" target="_blank" rel="noopener noreferrer" title="linkedin" className="footer__link-social footer__link-social--linkedin">
+                                      <span>linkedin</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="" href="https://iktva.sa/en">
+                                  <h4>In-Kingdom Value Add Program </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://iktva.sa/ar" target="">العربية</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>In-Kingdom Value Add Program</h3>
+                                <p>
+                                  North Park 1<br />Dhahran 31311, Saudi Arabia
+                                </p>
+                                <p>
+                                  <a href="https://www.iktva.sa/" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="https://twitter.com/iktvaAramco" target="_blank" rel="noopener noreferrer" title="twitter" className="footer__link-social footer__link-social--twitter">
+                                      <span>twitter</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.linkedin.com/company/iktvaaramco" target="_blank" rel="noopener noreferrer" title="linkedin" className="footer__link-social footer__link-social--linkedin">
+                                      <span>linkedin</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="https://www.ithra.com/en">
+                                  <h4>Ithra </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://www.ithra.com/ar/" target="_blank">العربية</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>Contact details &amp;info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>ITHRA</h3>
+                                <p>
+                                  8386 Ring Rd, Gharb Al Dhahran,<br />Dhahran 34461, Saudi Arabia
+                                </p>
+                                <p>
+                                  <a href="https://www.ithra.com/en" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <ul className="footer__links-social">
+                                  <li>
+                                    <a href="https://twitter.com/ithra" target="_blank" rel="noopener noreferrer" title="twitter" className="footer__link-social footer__link-social--twitter">
+                                      <span>twitter</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.youtube.com/user/iThraCultureCenter" target="_blank" rel="noopener noreferrer" title="youtube" className="footer__link-social footer__link-social--youtube">
+                                      <span>youtube</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.instagram.com/ithra/" target="_blank" rel="noopener noreferrer" title="instagram" className="footer__link-social footer__link-social--instagram">
+                                      <span>instagram</span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="https://www.facebook.com/KingAbdulazizCenterForWorldCulture/" target="_blank" rel="noopener noreferrer" title="facebook" className="footer__link-social footer__link-social--facebook">
+                                      <span>facebook</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="tab-pane">
+                <div className="panel panel-default">
+                  <div className="panel-heading" data-id="3">
+                    <h4 className="panel-title">
+                      <a data-toggle="collapse" data-parent=".tab-pane" href="#collapseOne">Production &amp;refineries
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="3" className="panel-collapse collapse">
+                    <div className="panel-body">
+                      <div className="country-block">
+                        <h3>Gas production</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Fadhili</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Fadhili</h3>
+                                <p>
+                                  <span>The cutting edge Fadhili Gas Plant (FGP) is emblematic of Saudi Aramco &rsquo;s broad impact on not only boosting gas supply to displace crude burning, but also driving economic growth, developing the Saudi workforce, spearheading technology deployment, and reducing CO2 emissions. FGP construction started in 2016 and was completed and put fully onstream in 2020.</span>
+                                </p>
+                                <p>
+                                  <span>With a total processing capacity of 2.5 BSCFD, FGP is the first plant in the region to have the capability of sweetening low BTU gas, then directly powering an independent power plant, yet able to switch to regular sales gas as needed. In addition, Fadhili is the first plant to treat nonassociated gas from both onshore and offshore fields.</span>
+                                </p>
+                                <p>
+                                  <span>FGP is also the first SA Gas plant to deploy the Sulfur Recovery Unit Tail Gas Treatment process to attain a sulfur recovery rate of 99.9%, helping to protect air quality, and reducing SO2 emissions by more than 18,000 Metric Tons per year as compared to the conventional Claus process.</span>
+                                </p>
+                                <p>
+                                  <span>The development of Fadhili added billions of dollars to the local economy through IKTVA. 46% of the project &rsquo;s materials and services were sourced and manufactured in Saudi Arabia.</span>
+                                </p>
+                                <p>
+                                  <span>A unique feature of Fadhili is that its multiple downstream treated gas pipelines enhanced the connectivity, reliability, and responsiveness of Saudi Aramco &rsquo;s Master Gas System (MGS), as those pipelines are connected to the northern and central sections of the MGS.</span>
+                                </p>
 
+
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Hawiyah</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Hawiyah</h3>
+                                <p>We are expanding the gas processing capacity of our Hawiyah gas plant by more than 1 BSCFD. The new gas processing facilities, expected to be on stream in 2022, are anticipated to raise total production capacity of the plant to approximately 3.6 BSCFD, making it one of the largest gas processing facilities in the world.</p>
+                                <p>We are making improvements to sustain gas production from both the Haradh and Hawiyah fields for the next 20 years and boost production by an average of 1.2 BSCFD. The program includes installing gas compression facilities, liquid separation stations, and transmission lines to our Haradh and Hawiyah gas plants, along with expanding the existing gas gathering pipeline network.&nbsp;</p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Karan</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Karan</h3>
+                                <p>
+                                  <span>Karan, was our first non-associated offshore gas field development. Discovered in 2006 in the thickest, extremely prolific and complex carbonate layers, the project was fast-tracked, taking only six years to go from discovery to production.</span>
+                                </p>
+                                <p>
+                                  <span>Non-associated gas fields do not have an associated oil column and, therefore, can be accessed without producing oil. The raw gas is transported through a 110-kilometer subsea pipeline to the Khursaniyah Gas Plant for processing.&nbsp;</span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Shaybah</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Shaybah</h3>
+                                <p>
+                                  <span>The natural gas liquids (NGL)
+                                    recovery plant at Shaybah was commissioned and began production in late 2015,
+                                    with a second processing train starting up in 2016. The plant NGL production
+                                    helps Saudi Aramco to meet increasing demand for petrochemical feedstock.</span>
+                                </p>
+                                <p>
+                                  <span>Designed
+                                    to process as much as 2.4 BSCFD of associated gas and recover 275,000 bpd of
+                                    ethane plus NGL, the Shaybah facility feeds these volumes of NGL via pipeline
+                                    to Ju &rsquo;aymah for
+                                    further processing before being delivered as petrochemical feedstock to
+                                    industrial cities.&nbsp;&nbsp;</span>
+                                </p>
+                                <p>
+                                  <span>
+                                    <a href="https://www.aramco.com/en/who-we-are/mega-projects/shaybah" className="cta__primary">FIND OUT MORE</a>
+                                  </span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Wasit</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Wasit </h3>
+                                <p>
+                                  <span>Wasit, one of the largest gas plants we have ever built, was brought onstream in October 2015 and reached full operating capacity in mid-2016. Unlike our other gas plants, Wasit is designed to process solely nonassociated gas.&nbsp;</span>
+                                </p>
+                                <p>
+                                  <span>
+                                    To feed Wasit, we brought gas production onstream from the big bore nonassociated gas wells in our offshore <em>Arabiyah</em>
+                                    and <em>Hasbah</em>
+                                    fields, situated approximately 150 km northeast of Jubail Industrial City in the Arabian Gulf. With the startup of production from these two fields, more than 40% of our nonassociated gas now comes from offshore fields.
+                                  </span>
+                                </p>
+                                <p>
+                                  <span>Our continued success in increasing supplies of cleaner burning natural gas makes it possible for us to reduce emissions, enable new industries and release more crude oil for value-added refining or export.</span>
+                                </p>
+                                <p>
+                                  <a href="https://www.aramco.com/en/who-we-are/mega-projects/wasit" className="cta__primary">FIND OUT MORE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="country-block">
+                        <h3>Oil production &amp;Refineries</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Abqaiq</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Abqaiq</h3>
+                                <p>
+                                  <span>As the company's largest oil processing facility and the largest crude oil stabilization plant in the world, Abqaiq plays a pivotal role in our day-to-day operations.</span>
+                                </p>
+                                <p>
+                                  <span>Abqaiq oil facilities receive sour crude oil from gas-oil separation plants (GOSPs), process it into sweet crude oil, and then transport it to Ras Tanura and Jubail on the east coast, Yanbu' on the west coast and to Bapco Refinery in Bahrain. The off gases from the spheroids and stabilizer columns that are part of the conversion process are then sent to Abqaiq natural gas liquids (NGL) facilities for further processing.</span>
+                                </p>
+                                <p>
+                                  <span>Abqaiq is the main oil processing center for Arabian Extra Light and Arabian Light crude oils.</span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Ghawar</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Ghawar</h3>
+                                <p>The northern-most portion of the Ghawar field lies approximately 100 kilometers west of Dhahran. The field comprises six main areas (Fazran, Ain Dar, Shedgum, Uthaminyah, Hawiyah and Haradh) and extends southward over more than 200 kilometers as one long continuous anticline. It is approximately 36 kilometers across at its widest point.</p>
+                                <p>We believe that the Ghawar field is the largest oil field in the world in terms of conventional proved reserves, totaling 58.32 billion barrels of oil equivalent as at 31 December 2018. It has accounted for more than half of the total cumulative crude oil production in the Kingdom.</p>
+                                <p>The Ghawar field facilities and infrastructure remain a central component in our long-term strategic framework for optimizing both technical recovery of resources and the economic of resource management.&nbsp;</p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Haradh</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Haradh</h3>
+                                <p>
+                                  <span>The Haradh area, located at the southern tip of the Ghawar oil field, was developed in three increments of 300,000 bpd of Arabian Light crude oil capacity. </span>
+                                </p>
+                                <p>
+                                  <span>Haradh III was also the first plant in the Southern Area of company operations to have completely automated well control and monitoring, allowing remote operations. The project benefited from successful integration of four technologies: multilateral, maximum reservoir contact (MRC) wells; Smart Well completions (using control valves for preventing premature water breakthrough); geosteering (for optimal placement of wells in the reservoir for maximum recovery); and the &ldquo;intelligent field &rdquo;concept, in which real-time sub-surface data transmissions enable continual monitoring of key reservoir indicators.&nbsp;</span>
+                                  The integrated use of these four technologies slashed unit well development costs three-fold.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Khurais</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Khurais</h3>
+                                <p>
+                                  <span>The Khurais complex, which comprises of the Abu Jifan and Mazalij fields in addition to Khurais itself, is approximately 106 kilometers long and 18 kilometers across at its widest point.&nbsp;</span>
+                                  &nbsp;
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Khursaniyah</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Khursaniyah</h3>
+                                <p>
+                                  <span>The Khursaniyah program includes facilities to process and stabilize 500,000 bpd of Arabian Light crude oil blend from the Abu Hadriya, Fadhili and Khursaniyah fields, and a grassroots gas plant to process &nbsp;one billion scfd of associated gas.</span>
+                                </p>
+                                <p>
+                                  <span>Khursaniyah began producing oil in August 2008. The facility also has the capacity to inject 1.1 million bpd of non-potable water for reservoir pressure maintenance.</span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Manifa</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Manifa</h3>
+                                <p>
+                                  <span>The UNESCO environmental responsibility award nominated Manifa crude oil development was designed to produce 900,000 bpd of Arabian Heavy crude oil, 90 million scfd of sour gas, and 65,000 bpd of hydrocarbon condensate.</span>
+                                </p>
+                                <p>
+                                  <span>By employing best-in-class technologies in infrastructure, drilling and production activities, the project consumed more than 80 million man hours without a lost time injury.</span>
+                                </p>
+                                <p>
+                                  <span>Prior to construction, extensive engineering and ecological assessments were conducted to ensure that the marine ecosystem would not be adversely affected by developing the field. As a direct result of these studies, Saudi Aramco constructed three kilometers of bridges to span the migration paths of various marine species, maintaining natural water flow and preserving natural marine nurseries.&nbsp;</span>
+                                </p>
+                                <p>
+                                  <span>
+                                    <a href="https://www.aramco.com/en/who-we-are/mega-projects/manifa">FIND OUT MORE</a>
+                                  </span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Nuayyim</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Nuayyim</h3>
+                                <p>
+                                  <span>Nuayyim crude oil increment added 100,000 bpd of Arabian Super Light crude oil and 90 million scfd of associated gas to our production capacity.</span>
+                                </p>
+                                <p>
+                                  <span>The project &ndash;the first in-Kingdom project of this scale with a project proposal completed entirely in Saudi Arabia &ndash;also included a gas-oil separation plant, 140 kilometers of 16 &rdquo;gas pipeline, and water supply facilities at Hawtah. Smokeless flaring has been used to significantly reduce emissions.&nbsp;</span>
+                                </p>
+                                <p>
+                                  <span>The field, which entered production in August 2009, is 250 kilometers south of Riyadh and about 50 kilometers northeast of our Hawtah crude oil facility, the first producing facility in the Central Region of Saudi Arabia.</span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Qatif</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Qatif</h3>
+                                <p>
+                                  <span>Qatif Producing Plants Program consists of facilities to produce, process, and transport 500,000 bpd of blended Arabian Light crude oil from the Qatif field and 300,000 bpd of Arabian Medium crude oil from the offshore Abu Sa'fah field.</span>
+                                </p>
+                                <p>
+                                  <span>The Qatif facility was the first to produce Arabian Light crude oil by blending Arabian Extra Light, Light and Medium grades. </span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Safaniyah</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Safaniyah</h3>
+                                <p>We believe that Safaniyah field is the world's largest conventional offshore oil field in terms of proved reserves. It is located approximately 260 kilometers north of Dhahran. Most of the field lies offshore in the Arabian Gulf. Within the Concession area, the Safaniyah field is approximately 50 kilometers long and 15 kilometers wide.&nbsp;&nbsp;</p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Shaybah</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Shaybah</h3>
+                                <p>
+                                  <span>The Shaybah field, located in the Rub &rsquo;al-Khali or Empty Quarter, was discovered in 1968. Its remote location, local summer temperatures in excess of 50 degrees Celsius and sand dunes higher than 300 meters presented serious challenges. So for technical and economic reasons, development was held off until 20 years later. However, by the 1990s, advances in 3D seismic imaging technology, horizontal drilling and other technologies gave us the tools we needed to begin production.&nbsp;</span>
+                                </p>
+                                <p>
+                                  <span>The field is approximately 13 kilometers wide and 64 kilometers long. Due to the field's remoteness, its facilities include a dedicated NGL recovery unit, an airfield and accommodation for staff.&nbsp;</span>
+                                </p>
+                                <p>
+                                  <span>Our second 250,000 bpd expansion project at Shaybah came on-stream in 2016, raising its overall production capacity to 1 million bpd of Arabian Extra Light crude oil &mdash;double the facility &rsquo;s original capacity.&nbsp;</span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Zuluf</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Zuluf</h3>
+                                <p>The Zuluf field is located in the Arabian Gulf, approximately 240 kilometers north of Dhahran, in average water depth of 118 feet. The field has two main structures, Zuluf and Ribyan, and is of similar area to Safaniyah to the north.&nbsp;&nbsp;</p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="country-block">
+                        <h3>Refinery</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Jazan Refinery</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Jazan Refinery</h3>
+                                <p>
+                                  <span>Aramco operates one of the world &rsquo;s largest refining businesses, and its integrated petrochemical refinery complex at Jazan City for Primary and Downstream Industries is part of the Company &rsquo;s vibrant downstream growth strategy.</span>
+                                </p>
+                                <p>
+                                  <span>In 2020, Aramco confirmed that it would proceed with the divestment of the Jazan Integrated Gasification and Combined Cycle Plant into a Joint Venture (JV)   between Aramco, Air Products, ACWA Power, and Air Products Qudra, integrating the Air Separation Unit into the JV.</span>
+                                </p>
+                                <p>
+                                  <span>With the addition of our Jazan Refinery Complex, Aramco has five wholly owned refineries within the Kingdom, three of which were built specifically to supply transportation and utility fuels for the domestic marketplace.&nbsp;Aramco &rsquo;s four domestic affiliated refineries within the Kingdom are highly competitive with other world-class facilities based on scale, configurations and product yields.&nbsp;</span>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
 
