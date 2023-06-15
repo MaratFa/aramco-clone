@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aramco-clone/static/css/main.6aca10a9.css",
-    "main.js": "/aramco-clone/static/js/main.3f885642.js",
+    "main.js": "/aramco-clone/static/js/main.2edb440b.js",
     "static/js/787.6989cddd.chunk.js": "/aramco-clone/static/js/787.6989cddd.chunk.js",
     "static/media/sa-icons-webfont.svg?": "/aramco-clone/static/media/sa-icons-webfont.df1bf8d8a89bdd65dca5.svg",
     "static/media/sa-icons-webfont.eot": "/aramco-clone/static/media/sa-icons-webfont.03d707226a46ac23f51f.eot",
@@ -34,11 +34,11 @@
     "static/media/affiliateLogo.png": "/aramco-clone/static/media/affiliateLogo.4b7c0c2b978da9e4adf5.png",
     "index.html": "/aramco-clone/index.html",
     "main.6aca10a9.css.map": "/aramco-clone/static/css/main.6aca10a9.css.map",
-    "main.3f885642.js.map": "/aramco-clone/static/js/main.3f885642.js.map",
+    "main.2edb440b.js.map": "/aramco-clone/static/js/main.2edb440b.js.map",
     "787.6989cddd.chunk.js.map": "/aramco-clone/static/js/787.6989cddd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6aca10a9.css",
-    "static/js/main.3f885642.js"
+    "static/js/main.2edb440b.js"
   ]
 }
