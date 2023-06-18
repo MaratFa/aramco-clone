@@ -3036,6 +3036,393 @@ export const Home = () => {
                   </div>
                 </div>
               </div>
+              <div className="tab-pane">
+                <div className="panel panel-default">
+                  <div className="panel-heading" data-id="4">
+                    <h4 className="panel-title">
+                      <a data-toggle="collapse" data-parent=".tab-pane" href="#collapseOne">Joint ventures
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="4" className="panel-collapse collapse">
+                    <div className="panel-body">
+                      <div className="country-block">
+                        <h3>Joint ventures</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>Hyundai Oilbank</h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Hyundai Oilbank</h3>
+                                <p>Hyundai Oilbank is a refinery in South Korea, established in 1964. The Daesan Complex, where Hyundai Oilbank &rsquo;s major facilities are located, is a fully integrated refining plant with a processing capacity of 650,000 barrels of crude oil per day. Aramco has a 17% equity interest in Hyundai Oilbank.</p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://www.idemitsu.com/" target="_blank">Idemitsu Kosan</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Idemitsu Kosan Co., Ltd</h3>
+                                <p>Idemitsu Kosan, one of leading refining and marketing companies in Japan, is a result of a merger between Idemitsu and Showa Shell Sekiyu. Its sales in Japan are primarily gasoline, diesel oil, kerosene and automotive lubricants. Idemitsu Kosan &nbsp;owns and operates more than 6,400 retail service stations,&nbsp;has equity stakes in six refineries, and &nbsp;a gross refining capacity of 945,000 bpd. Aramco owns a 7.7% equity interest in Idemitsu Kosan.</p>
+                                <p>
+                                  <a className="cta__primary" href="https://www.idemitsu.com/" target="_blank" rel="noopener noreferrer nofollow">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://motiva.com/" target="_blank">Motiva</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Motiva Enterprises</h3>
+                                <p>Motiva Enterprises, a fully owned affiliate of Saudi Aramco, operates the Port Arthur Refinery, the largest refinery in the U.S. at 635,000 bpd in Port Arthur, Texas. Motiva has acquired a 100% equity interest in Motiva Chemicals LLC (formerly Flint Hills), a chemical plant in Port Arthur, Texas.</p>
+                                <p>
+                                  <a className="cta__primary" href="https://motiva.com" target="_blank" rel="noopener noreferrer nofollow">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://samref.com.sa" target="_blank">SAMREF</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Saudi Aramco Mobil Refinery Company </h3>
+                                <p>SAMREF is an equally owned joint venture between Saudi Arabian Oil Company (Saudi Aramco) and Mobil Yanbu Refining Company Inc. (a wholly owned subsidiary of Exxon Mobil Corporation).&nbsp;Its current refining capacity is 400,000 bpd.</p>
+                                <p>
+                                  <a className="cta__primary" href="https://www.samref.com.sa/default.aspx" target="_blank" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="http://sinopecsenmeifj.com/en_index.asp" target="_blank">Sinopec SenMei</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Sinopec SenMei Petroleum Company Ltd.</h3>
+                                <p>Sinopec SenMei Petroleum Company Limited is a joint venture of Sinopec, ExxonMobil China Petroleum &amp;Petrochemical Company Limited and Saudi Aramco Sino Company Limited. Sinopec SenMei, with headquarters in Fuzhou, is mainly engaged in the wholesale, retail, storage, throughput and transport of the processed oil, lubricant and other petroleum products, operation of convenience stores of service stations, car washing, lubricant replacement, restaurant and other auxiliary services.</p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="country-block">
+                        <h3>Chemicals</h3>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://www.arlanxeo.com" target="_blank">Arlanxeo</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Arlanxeo</h3>
+                                <p>Based in Maastricht, Netherlands, as a wholly-owned subsidiary of Saudi Aramco, ARLANXEO serves the development, production, marketing, sale and distribution of specialty chemicals and synthetic rubber products, principally for the high-volume global tire and automotive industries. </p>
+                                <p>
+                                  <a href="https://www.arlanxeo.com/" target="_blank" className="cta__primary" rel="noopener noreferrer nofollow">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="http://www.fjrep.com/en/index" target="_blank">FREP</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Fujian Refining and Petrochemical Company Ltd. (FREP)</h3>
+                                <p>FREP, is our joint venture with ExxonMobil, China Petroleum and Petrochemical Company Limited (Sinopec) and the Fujian provincial government.</p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://www.petrorabigh.com/en" target="_blank">Petro Rabigh</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Rabigh Refining and Petrochemical Company (Petro Rabigh)</h3>
+                                <p>A joint venture between Saudi Aramco and Sumitomo Chemical. The products produced are used in such end products as plastics, detergents, lubricants, resins, coolants, anti-freeze, paint, carpets, rope, clothing, shampoo, auto interiors, epoxy glue, insulation, film, fibers, household appliances, packaging, candles, pipes and many other applications.</p>
+                                <p>
+                                  <a href="https://www.petrorabigh.com/en" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://prefchem.com/" target="_blank">PRefChem</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>PRefChem</h3>
+                                <p>PRefChem venture is a strategic alliance between Saudi Aramco and Petronas, through equal ownership in two joint ventures, namely the Pengerang Refining Company Sdn. Bhd. (PRefChem Refining) and the Pengerang Petrochemical Company Sdn. Bhd. (PRefChem Petrochemical), collectively known as PRefChem.&nbsp;</p>
+                                <p>
+                                  <a href="https://www.prefchem.com" className="cta__primary" target="_blank" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="https://www.sabic.com/en">
+                                  <h4>SABIC </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://www.sabic.com/ar" target="_blank">العربية</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Saudi Basic Industries Corporation (SABIC) </h3>
+                                <p>
+                                  <a className="cta__primary" href="https://www.sabic.com" target="_blank" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="https://www.sadara.com/en">
+                                  <h4>SADARA </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="https://www.sadara.com/ar" target="_blank">العربية</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Sadara Chemical Company (SADARA)</h3>
+                                <p>A joint venture developed by Saudi Aramco and the Dow Chemical Company. The Sadara chemical complex―the largest of its kind ever built in a single phase― manufactures a portfolio of valued-added performance plastics and specialty chemicals.</p>
+                                <p>
+                                  <a href="https://www.sadara.com/" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://sasref.com.sa/index.html" target="_blank">SASREF</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Saudi Aramco Jubail Refinery Company - SASREF</h3>
+                                <p>A
+                                  Saudi company wholly-owned by Saudi Aramco.&nbsp;The refinery is located in Jubail Industrial city. The refinery processes crude oil into petroleum products for both local and international markets.</p>
+                                <p>
+                                  <a href="https://sasref.com.sa/index.html" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="http://www.satorp.com/" target="_blank">SATORP</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Saudi Aramco Total Refining and Petrochemical company</h3>
+                                <p>The Saudi Aramco Total Refining and Petrochemical Co. (SATORP), a joint venture between Saudi Aramco and Total in Jubail, supports Saudi Aramco &rsquo;s efforts to expand the value chain and achieve maximum value from the Kingdom &rsquo;s resources. It processes heavy Arabian crude daily into low-sulfur gasoline, diesel and jets fuel that comply with the standards in the United States, Europe and Japan. It also produces paraxylene, benzene, sulfur and pure petroleum coke that fuels cement plants and electric power stations.</p>
+                                <p>
+                                  <a href="http://www.satorp.com/" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="country-row">
+                          <div className="country-col">
+                            <div className="country-title">
+                              <div className="country-title-lang">
+                                <a className="country-link" target="_blank" href="http://www.s-oil.com/en/Default.aspx">
+                                  <h4>S-Oil Corporation </h4>
+                                  <span>English</span>
+                                </a>
+                                <span>
+                                  <a href="http://www.s-oil.com/Default.aspx" target="_blank">한국어</a>
+                                </span>
+                              </div>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>S-Oil Corporation</h3>
+                                <p>Our investment in South Korea &rsquo;s S-OIL, one of the country &rsquo;s leading refiners, complements our downstream ventures in China and Japan and creates new opportunities along the value chain in the major energy markets in Asia.</p>
+                                <p>
+                                  <a href="http://www.s-oil.com/en/Default.aspx" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                          <div className="country-col">
+                            <div className="country-title">
+                              <h4>
+                                <a href="https://www.yasref.com/en-us/Pages/Index.aspx" target="_blank">YASREF</a>
+                              </h4>
+                            </div>
+                            <div className="country-address-block">
+                              <div className="country-info">
+                                <a href="#" tabIndex={0}>
+                                  <h4>More info</h4>
+                                </a>
+                              </div>
+                              <div className="office-address">
+                                <h3>Yanbu Aramco Sinopec Refining Company</h3>
+                                <p>The Yanbu Aramco Sinopec
+                                  Refining Company (YASREF) Ltd., a joint venture between Saudi Aramco and China
+                                  Petrochemical Corporation (Sinopec), is a world-class, full-conversion refinery
+                                  that covers about 5.2 million square meters in the Yanbu Industrial City, and
+                                  is the key anchor project in Yanbu. YASREF uses 400,000 barrels per day (bpd)
+                                  of Arabian heavy crude oil to produce premium transportation fuels, as well as
+                                  high-value refined products for both international and domestic markets.</p>
+                                <p>YASREF is a significant addition to the impressive downstream portfolio of Saudi Aramco, while building on and cementing the strategic partnership with Sinopec, Saudi Aramco &rsquo;s largest crude oil partner and buyer. Both companies bring commercial and technical expertise to the joint venture to enhance trade of transportation fuels between a significant energy producer and its consumer.</p>
+                                <p>In addition, YASREF represents a continuing step forward in the strategies of Saudi Aramco and Sinopec to drive growth further downstream to capture additional value along the hydrocarbon chain.</p>
+                                <p>
+                                  <a href="https://www.yasref.com/en-us/Pages/Index.aspx" target="_blank" className="cta__primary" rel="noopener noreferrer">WEBSITE</a>
+                                </p>
+                                <hr style={{ width: '100%', border: '1px solid', borderBottom: '0', opacity: '0.1' }} />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
 
 
 
