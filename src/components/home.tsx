@@ -3730,103 +3730,387 @@ export const Home = () => {
             </div>
             {/* Swiper */}
             <div className="swiper-container swiperBanner">
-              <div className="swiper-slide">
-                <img
-                  src={require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=356&amp;ch=200&amp;hash=269BC92808EF211BDC377850339C2008A17AF8E1")}
-                  srcSet={`${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=853&amp;ch=480&amp;hash=11938929150D41A64025E17597CD47323ABAB561 768w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=1138&amp;ch=640&amp;hash=A1497BEA7B8F802C0F9625A867BFE0BD82128CE6 1024w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=1600&amp;ch=900&amp;hash=C3DB6E540418906F071A850D0A20D1D866364AE5 1440w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=712&amp;ch=400&amp;hash=74B544905C73A9038FD9489F1132E4ED9EA7F3C3 640w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=1706&amp;ch=960&amp;hash=F06F91E6F3C470CB678C425C5E1D6383971C9673 1536w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=1707&amp;ch=960&amp;hash=6BCEBDD505A89BD6F7CEFA9B7E372E2042BE72D3 1600w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=2000&amp;ch=1125&amp;hash=A336CC03D3C4562D6E8FA07459462F4C30FC806A 1800w")}`}
-                  sizes="100vw"
-                  alt=""
-                />
-                <div className="slider-content">
-                  <div className="container">
-                    <div className="carousel-info-main">
-                      <h3>Elements</h3>
-                      <h1>Marine studies to protect our seas</h1>
-                      <p className="carousel-description">For decades, Aramco has supported Arabian Gulf and Red Sea research that could help guide best practice in areas from conservation to fisheries management.
-                      </p>
+              <div className="swiper-wrapper" id="43a4804c60824db499ed5739f93359e4">
+                <div className="swiper-slide">
+                  <img
+                    src={require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=356&amp;ch=200&amp;hash=269BC92808EF211BDC377850339C2008A17AF8E1")}
+                    srcSet={`${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=853&amp;ch=480&amp;hash=11938929150D41A64025E17597CD47323ABAB561 768w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=1138&amp;ch=640&amp;hash=A1497BEA7B8F802C0F9625A867BFE0BD82128CE6 1024w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=1600&amp;ch=900&amp;hash=C3DB6E540418906F071A850D0A20D1D866364AE5 1440w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=712&amp;ch=400&amp;hash=74B544905C73A9038FD9489F1132E4ED9EA7F3C3 640w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=1706&amp;ch=960&amp;hash=F06F91E6F3C470CB678C425C5E1D6383971C9673 1536w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=1707&amp;ch=960&amp;hash=6BCEBDD505A89BD6F7CEFA9B7E372E2042BE72D3 1600w")}, ${require("../images/as01202010-reader-fish.jpg?cx=0.55&amp;cy=0.48&amp;cw=2000&amp;ch=1125&amp;hash=A336CC03D3C4562D6E8FA07459462F4C30FC806A 1800w")}`}
+                    sizes="100vw"
+                    alt=""
+                  />
+                  <div className="slider-content">
+                    <div className="container">
+                      <div className="carousel-info-main">
+                        <h3>Elements</h3>
+                        <h1>Marine studies to protect our seas</h1>
+                        <p className="carousel-description">For decades, Aramco has supported Arabian Gulf and Red Sea research that could help guide best practice in areas from conservation to fisheries management.
+                        </p>
+                      </div>
+                      <div className="banner-cta">
+                        <a className="cta__primary" href="/en/magazine/elements/2023/marine-studies-to-protect-our-seas">LEARN MORE</a>
+                      </div>
                     </div>
-                    <div className="banner-cta">
-                      <a className="cta__primary" href="/en/magazine/elements/2023/marine-studies-to-protect-our-seas">LEARN MORE</a>
+                  </div>
+                </div>
+                <div className="swiper-slide">
+                  <img
+                    src={require("../images/90-years-website-masthead-web.jpg")}
+                    srcSet={`${require("../images/90-years-website-masthead-web.jpg")}, ${require("../images/90-years-website-masthead-web.jpg")}`}
+                    sizes="100vw"
+                    alt=""
+                  />
+                  <div className="slider-content">
+                    <div className="container">
+                      <div className="carousel-info-main">
+                        <h3>Our history</h3>
+                        <h1>90 years of exploration, discovery, and innovation</h1>
+                        <p className="carousel-description"></p>
+                      </div>
+                      <div className="banner-cta">
+                        <a className="cta__primary" href="/en/who-we-are/overview/our-history">EXPLORE OUR HISTORY</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="swiper-slide">
+                  <img
+                    src={require("../images/q1-2023.jpg")}
+                    srcSet={`${require("../images/q1-2023.jpg")}, ${require("../images/q1-2023.jpg")}`}
+                    sizes="100vw"
+                    alt=""
+                  />
+                  <div className="slider-content">
+                    <div className="container">
+                      <div className="carousel-info-main">
+                        <h3>May 9, 2023</h3>
+                        <h1>Saudi Aramco &#39;s Q1 2023 results announcement</h1>
+                        <p className="carousel-description">Saudi Aramco announced its Q1 2023 results and dividend on May 9, 2023.
+                        </p>
+                      </div>
+                      <div className="banner-cta">
+                        <a className="cta__primary" rel="noopener noreferrer" href="/-/media/publications/corporate-reports/saudi-aramco-q1-2023-interim-report-english.pdf?la=en&amp;hash=8D335B243A6B4C643F2B6C180088E12838C1F61B" target="_blank">Q1 2023 INTERIM REPORT</a>
+                        <a className="cta__secondary--negative" rel="noopener noreferrer" href="/-/media/publications/corporate-reports/saudi-aramco-q1-2023-results-press-release-english.pdf?la=en&amp;hash=CACE7FE0047C11054108BCC3A66BF10D6E3DFF39" target="_blank">PRESS RELEASE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="swiper-slide">
+                  <img
+                    src={require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=356&amp;ch=200&amp;hash=D98493E42EBB89DCA86484E489E0A016A5B7387C")}
+                    srcSet={`${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=853&amp;ch=480&amp;hash=669762B0D8B7E699A8FDB5BF8AF97FD68D4FE3F3 768w")}, ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=1138&amp;ch=640&amp;hash=B448DB5F3D904BF4A5CB67D7ACE45DE1C76E05B6 1024w")}  , ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=1600&amp;ch=900&amp;hash=AC15E6840F386774D0CD576AE60A93F21679533C 1440w")}, ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=712&amp;ch=400&amp;hash=2F4115B3CE816A8543CA3106EC19042D61FD4196 640w")}, ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=1706&amp;ch=960&amp;hash=0EAC177C62BC96E4AA46306C3D0E74049AA8E2D9 1536w")}  , ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=1707&amp;ch=960&amp;hash=D3396419BEFED31DAD490A4D687AA9301BC81C58 1600w")}  , ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=2000&amp;ch=1125&amp;hash=1E3CA6FD232662763FE3302D5F8AFA5D79C8C980 1800w")}`}
+                    sizes="100vw"
+                    alt=""
+                  />
+                  <div className="slider-content">
+                    <div className="container">
+                      <div className="carousel-info-main">
+                        <h3>Powered by how</h3>
+                        <h1>How can more women drive innovation in our industry?</h1>
+                        <p className="carousel-description">Our female talent is pushing the energy industry forward.
+                        </p>
+                      </div>
+                      <div className="banner-cta">
+                        <a className="cta__primary" href="/en/campaigns/powered-by-how/how-women-drive-innovation">DISCOVER HOW</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="swiper-slide">
-                <img
-                  src={require("../images/90-years-website-masthead-web.jpg")}
-                  srcSet={`${require("../images/90-years-website-masthead-web.jpg")}, ${require("../images/90-years-website-masthead-web.jpg")}`}
-                  sizes="100vw"
-                  alt=""
-                />
-                <div className="slider-content">
-                  <div className="container">
-                    <div className="carousel-info-main">
-                      <h3>Our history</h3>
-                      <h1>90 years of exploration, discovery, and innovation</h1>
-                      <p className="carousel-description"></p>
-                    </div>
-                    <div className="banner-cta">
-                      <a className="cta__primary" href="/en/who-we-are/overview/our-history">EXPLORE OUR HISTORY</a>
+              {/* Add Pagination */}
+              <div className="container">
+                <div className="swiper-pagination swiperbanner-pagination"></div>
+              </div>
+            </div>
+          </main>
+        </div>
+        <div className="container sublayout sublayout__full-grid ">
+          <div className="row justify-content-md-center">
+            <div className="col-sm-12">
+              <div className="feature-panel">
+                <h2 className="feature-panel__heading">Technology development</h2>
+                <div className="feature-panel__wrapper" data-id="guid-d017f29e-71cd-4065-bc30-272da989c515">
+                  <div className="feature-panel__image-container">
+                    <div className="background-images">
+                      <span v-html="style"></span>
+                      <script type="text/html" id="template-d017f29e-71cd-4065-bc30-272da989c515">
+                        <style>
+                        </style>
+                      </script>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <img
-                  src={require("../images/q1-2023.jpg")}
-                  srcSet={`${require("../images/q1-2023.jpg")}, ${require("../images/q1-2023.jpg")}`}
-                  sizes="100vw"
-                  alt=""
-                />
-                <div className="slider-content">
-                  <div className="container">
-                    <div className="carousel-info-main">
-                      <h3>May 9, 2023</h3>
-                      <h1>Saudi Aramco &#39;s Q1 2023 results announcement</h1>
-                      <p className="carousel-description">Saudi Aramco announced its Q1 2023 results and dividend on May 9, 2023.
-                      </p>
-                    </div>
-                    <div className="banner-cta">
-                      <a className="cta__primary" rel="noopener noreferrer" href="/-/media/publications/corporate-reports/saudi-aramco-q1-2023-interim-report-english.pdf?la=en&amp;hash=8D335B243A6B4C643F2B6C180088E12838C1F61B" target="_blank">Q1 2023 INTERIM REPORT</a>
-                      <a className="cta__secondary--negative" rel="noopener noreferrer" href="/-/media/publications/corporate-reports/saudi-aramco-q1-2023-results-press-release-english.pdf?la=en&amp;hash=CACE7FE0047C11054108BCC3A66BF10D6E3DFF39" target="_blank">PRESS RELEASE</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="swiper-slide">
-                <img
-                  src={require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=356&amp;ch=200&amp;hash=D98493E42EBB89DCA86484E489E0A016A5B7387C")}
-                  srcSet={`${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=853&amp;ch=480&amp;hash=669762B0D8B7E699A8FDB5BF8AF97FD68D4FE3F3 768w")}, ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=1138&amp;ch=640&amp;hash=B448DB5F3D904BF4A5CB67D7ACE45DE1C76E05B6 1024w")}  , ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=1600&amp;ch=900&amp;hash=AC15E6840F386774D0CD576AE60A93F21679533C 1440w")}, ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=712&amp;ch=400&amp;hash=2F4115B3CE816A8543CA3106EC19042D61FD4196 640w")}, ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=1706&amp;ch=960&amp;hash=0EAC177C62BC96E4AA46306C3D0E74049AA8E2D9 1536w")}  , ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=1707&amp;ch=960&amp;hash=D3396419BEFED31DAD490A4D687AA9301BC81C58 1600w")}  , ${require("../images/poweredbyhow-optimized.jpg?cx=0.74&amp;cy=0.48&amp;cw=2000&amp;ch=1125&amp;hash=1E3CA6FD232662763FE3302D5F8AFA5D79C8C980 1800w")}`}
-                  sizes="100vw"
-                  alt=""
-                />
-                <div className="slider-content">
-                  <div className="container">
-                    <div className="carousel-info-main">
-                      <h3>Powered by how</h3>
-                      <h1>How can more women drive innovation in our industry?</h1>
-                      <p className="carousel-description">Our female talent is pushing the energy industry forward.
-                      </p>
-                    </div>
-                    <div className="banner-cta">
-                      <a className="cta__primary" href="/en/campaigns/powered-by-how/how-women-drive-innovation">DISCOVER HOW</a>
+                  <div className="feature-panel__container container p-0">
+                    <div className="feature-panel__content">
+                      <div className="feature-panel__title-container">
+                        <h2 className="feature-panel__title">The Aramco and Aston Martin Racing strategic partnership</h2>
+                        <p className="feature-panel__category">TECHNOLOGY DEVELOPMENT</p>
+                      </div>
+                      <p className="feature-panel__copy">Aramco and the Aston Martin Formula One™ Team join forces to take on Formula 1 ®</p>
+                      <div className="feature-panel__cta-wrapper">
+                        <div className="feature-panel__cta-wrapper">
+                          <a href="/en/creating-value/technology-development/aramco-and-aston-martin-strategic-partnership" >LEARN MORE
+                          </a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            {/* Add Pagination */}
-
-
-
-
-
-
-
-
-          </main>
+          </div>
         </div>
-      </main>
-    </div>
+        <div className="container sublayout sublayout__full-grid sublayout--no-margin">
+          <div className="row justify-content-md-center">
+            <div className="col-sm-12">
+              <filter inline-template>
+                <div className="news-filters">
+                  <h2 className="news-filters__title">Latest from Elements Magazine</h2>
+                  <div className="news-filters__filter-list">
+                    <ul role="tablist">
+                      <li role="tab" tabIndex={0} className="news-filters__filter-item" >
+                        <span aria-label="Filter label for ">
+                        </span>
+                      </li>
+                    </ul>
+                    <button type="button" className="news-filters__clear-btn" >CLEAR ALL FILTERS</button>
+                  </div>
+                  <div className="news__items-container">
+                    <div id="news-filter-5568e43e0c4f4fdf9708239a4a765a88" className="row news__items">
+                      <div className="col-md-12 col-lg-4 news__news-item">
+                        <article className="news-card ">
+                          <div className="news-card__img">
+                            <div className="inline-img__ratio">
+                              <picture>
+                                <img
+                                  src={require("../images/spacer.gif")}
+                                  data-srcset="/-/media/magazine/2022/marine-studies-to-protect-our-seas/as01202010-reader-fish.jpg?cx=0.5&amp;cy=0.5&amp;cw=486&amp;ch=297&amp;hash=75E7DA9CBFC8581B3CED0A0D7CC743EB951A2410" className="lazyload" alt="" />
+                              </picture>
+                            </div>
+                          </div>
+                          <div className="news-card__content">
+                            <div className="news-card__content-inner">
+                              <time dateTime="2023-06-13" className="news-card__date">Andrew Gray,  June 13, 2023
+                              </time>
+                              <h3 className="news-card__title">
+                                <a href="/en/magazine/elements/2023/marine-studies-to-protect-our-seas">Marine studies to protect our seas</a>
+                              </h3>
+                              <p className="news-card__description">For decades, Aramco has supported Arabian Gulf and Red Sea research that could help guide best practice in areas from conservation to fisheries management.
+                              </p>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div className="col-md-12 col-lg-4 news__news-item">
+                        <article className="news-card ">
+                          <div className="news-card__img">
+                            <div className="inline-img__ratio">
+                              <picture>
+                                <img src={require("../images/spacer.gif")}
+                                  data-srcset="/-/media/magazine/2023/coffee/01_coffee_round2_hero_en.jpg?cx=0.65&amp;cy=0.46&amp;cw=486&amp;ch=297&amp;hash=4DCF9A53DB19D9A6E241455ABFE1C7DCA9099527" className="lazyload" alt="" />
+                              </picture>
+                            </div>
+                          </div>
+                          <div className="news-card__content">
+                            <div className="news-card__content-inner">
+                              <time dateTime="2023-05-23" className="news-card__date">Riyadh Alalmaie,  May 23, 2023
+                              </time>
+                              <h3 className="news-card__title">
+                                <a href="/en/magazine/elements/2023/a-story-of-determination">A story of determination</a>
+                              </h3>
+                              <p className="news-card__description">Like many coffee farmers in Jazan, Abu Awwad faced challenges on his journey. Through Aramco’s coffee initiative, he enhanced his farming techniques and increased his production.
+                              </p>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                      <div className="col-md-12 col-lg-4 news__news-item">
+                        <article className="news-card ">
+                          <div className="news-card__img">
+                            <div className="inline-img__ratio">
+                              <picture>
+                                <img src={require("../images/spacer.gif")}
+
+                                  data-srcset="/-/media/magazine/2023/ikva/01_hero_img_iktva.jpg?cx=0.5&amp;cy=0.5&amp;cw=486&amp;ch=297&amp;hash=99B7B4999C2591482EE89C25EB29CEB9171F8513" className="lazyload" alt="" />
+                              </picture>
+                            </div>
+                          </div>
+                          <div className="news-card__content">
+                            <div className="news-card__content-inner">
+                              <time dateTime="2023-04-10" className="news-card__date">Abeer Alnemari,  April 10, 2023
+                              </time>
+                              <h3 className="news-card__title">
+                                <a href="/en/magazine/elements/2023/building-resilience-through-localization">Building resilience through localization</a>
+                              </h3>
+                              <p className="news-card__description">Our in-Kingdom Total Value Add (iktva) program shows the benefits of localized supply chains that support energy security
+                              </p>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                    <div className="news-filters__spinner" ></div>
+                  </div>
+                  <div className="col-12 news__action">
+                    <a href="/en/magazine/elements" className="cta__secondary news__see-all">SEE ALL</a>
+                  </div>
+                </div>
+              </filter>
+            </div>
+          </div>
+          <hr className="keyline" />
+        </div>
+        <div className="container sublayout sublayout__content-with-side-module ">
+          <div className="row justify-content-md-center">
+            <div className="col-lg-8">
+              <ul>
+                <div className="parentElementClasses">
+                  <div className="row">
+                    <div className="col-12">
+                      <h2 className="news-listing__title"></h2>
+                    </div>
+                    <div className="sublayoutClasses" >
+                      <div className="articleElementClasses( listing )">
+                        <div className="news-card__content">
+                          <div className="news-card__content-inner">
+                            <time dateTime="listing.newsCard.datetime" className="news-card__date">
+                            </time>
+                            <h3 className="news-card__title">
+                              <a href="listing.newsCard.href"></a>
+                            </h3>
+                            <p className="news-card__description">
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-12 news__action">
+                      <a href="/en/news-media/news" className="cta__secondary news__see-all">SEE ALL</a>
+                    </div>
+                    <div className="col-12">
+                      <hr className="divider" />
+                    </div>
+                    <div className="news-listing__feedback-window">
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </div>
+            <div className="col-lg-4">
+              <div className="key-document-section">
+                <div className="key-document__wrapper">
+                  <div className="key-document-section_listing">
+                    <h3 className="key-document_header">Key documents</h3>
+                  </div>
+                  <div className="keylist-title">
+                    <h4>June 15, 2023</h4>
+                  </div>
+                  <div className="key-document-list">
+                    <div className="key-document-content">
+                      <p>
+                        <a href="/-/media/downloads/sustainability-report/report-2022/2022-sustainability-report-en.pdf" target="_blank" title="">2022 Sustainability report</a>
+                      </p>
+                    </div>
+                    <div className="key-document-pdf">
+                      <span>PDF (11.11 MB)</span>
+                      <a href="/-/media/downloads/sustainability-report/report-2022/2022-sustainability-report-en.pdf" target="_blank" title="">
+                        <span className="download-icon pdf"></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="keylist-title">
+                    <h4>May 09, 2023</h4>
+                  </div>
+                  <div className="key-document-list">
+                    <div className="key-document-content">
+                      <p>
+                        <a href="/-/media/publications/corporate-reports/saudi-aramco-q1-2023-interim-report-english.pdf" target="_blank" title="">Q1 2023 interim report</a>
+                      </p>
+                    </div>
+                    <div className="key-document-pdf">
+                      <span>PDF (1.14 MB)</span>
+                      <a href="/-/media/publications/corporate-reports/saudi-aramco-q1-2023-interim-report-english.pdf" target="_blank" title="">
+                        <span className="download-icon pdf"></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="keylist-title">
+                    <h4>March 13, 2023</h4>
+                  </div>
+                  <div className="key-document-list">
+                    <div className="key-document-content">
+                      <p>
+                        <a href="/-/media/publications/corporate-reports/saudi-aramco-ara-2022-english.pdf" target="_blank" title="">Annual report 2022</a>
+                      </p>
+                    </div>
+                    <div className="key-document-pdf">
+                      <span>PDF (9.52 MB)</span>
+                      <a href="/-/media/publications/corporate-reports/saudi-aramco-ara-2022-english.pdf" target="_blank" title="">
+                        <span className="download-icon pdf"></span>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="all-key-list text-uppercase"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container sublayout sublayout__full-grid ">
+          <div className="row justify-content-md-center">
+            <div className="col-sm-12">
+              <div className="key-facts-icons">
+                <h4 className="key-facts-icons__heading">ARAMCO AT A GLANCE</h4>
+                <div className="key-facts-icons__container ">
+                  <div className="key-facts-icons__wrapper ">
+                    <div className="key-facts-icons__icon-wrapper">
+                      <i className="key-facts-icons__icon icon--antenna" aria-hidden="true"></i>
+                    </div>
+                    <div className="key-facts-icons__content-wrapper">
+                      <div className="key-facts-icons__figure">90 years</div>
+                      <p className="key-facts-icons__description">of experience</p>
+                    </div>
+                    <div className="key-facts-icons__cta-wrapper">
+                      <a href="/en/who-we-are/overview">OVERVIEW
+                      </a>
+                    </div>
+                  </div>
+                  <div className="key-facts-icons__wrapper ">
+                    <div className="key-facts-icons__icon-wrapper">
+                      <i className="key-facts-icons__icon icon--barrel" aria-hidden="true"></i>
+                    </div>
+                    <div className="key-facts-icons__content-wrapper">
+                      <div className="key-facts-icons__figure">338.43 billion</div>
+                      <p className="key-facts-icons__description">we manage the Kingdom &#39;s proved reserves of 338.43 billion barrels of oil equivalent</p>
+                    </div>
+                    <div className="key-facts-icons__cta-wrapper">
+                      <a href="/en/creating-value/products" >OUR PRODUCTS
+                      </a>
+                    </div>
+                  </div>
+                  <div className="key-facts-icons__wrapper ">
+                    <div className="key-facts-icons__icon-wrapper">
+                      <i className="key-facts-icons__icon icon--workforce" aria-hidden="true"></i>
+                    </div>
+                    <div className="key-facts-icons__content-wrapper">
+                      <div className="key-facts-icons__figure">70,000 +</div>
+                      <p className="key-facts-icons__description">total workforce</p>
+                    </div>
+                    <div className="key-facts-icons__cta-wrapper">
+                      <a href="/en/careers" >CAREERS AT ARAMCO
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </main >
+    </div >
   );
 };
