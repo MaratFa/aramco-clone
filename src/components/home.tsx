@@ -1,9 +1,22 @@
 import "../styles/main.css";
 
 export const Home = () => {
+  function navClickOut(event: { preventDefault: () => void; }) {
+    event.preventDefault();
+  }
+
   return (
     <div className="home">
-      <section role="navigation" className="main-nav js-main-nav" >
+      <section
+        className="main-nav js-main-nav"
+        role="navigation"
+        onClick={navClickOut}
+      >
+
+
+
+
+
         <div className="main-nav__dummy"></div>
         <div className="main-nav__float-wrap">
           <a href="#saudi-app" className="main-nav__skip-nav">
