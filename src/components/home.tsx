@@ -18,6 +18,7 @@ export const Home = () => {
 
 
 
+
         <div className="main-nav__dummy"></div>
         <div className="main-nav__float-wrap">
           <a href="#saudi-app" className="main-nav__skip-nav">
